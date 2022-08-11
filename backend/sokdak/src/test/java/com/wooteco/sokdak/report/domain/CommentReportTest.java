@@ -22,6 +22,7 @@ class CommentReportTest {
 
     @BeforeEach
     void setUp() {
+
         member = Member.builder()
                 .username(VALID_USERNAME)
                 .password(VALID_PASSWORD)
